@@ -14,16 +14,16 @@ auto lp(int a, int b) -> void
 			c++;
 		}
 		
-		if (c == 1)
-		{
+			if (c == 1)
+			{
 			std::cout << i <<" ";
 			s = s + std::to_string(i) + " ";
+			}
 		}
-	}
-	std::cout << "\n";
-	std::cout << s << "\n";
+		std::cout << "\n";
+		std::cout << s << "\n";
 	
-}
+	}
 
 auto main() -> int 
 {
