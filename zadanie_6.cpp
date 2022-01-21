@@ -1,6 +1,6 @@
 #include <iostream>
 
-auto is_even(int x, int z) -> bool
+auto is_divisible(int x, int z) -> bool
 {
 	if (x%z==0) 
 	return true;
@@ -18,7 +18,7 @@ auto main() -> int
 	std::cout << "Podaj druga liczbe: ";
 	std::cin >> z;
 	
-	bool y = is_even(x,z);
+	bool y = is_divisible(x,z);
 	
 	if (y) 
 	std::cout << x << " jest podzielna przez " << z << "\n";
