@@ -7,6 +7,13 @@ auto is_divisible(int x, int z) -> bool
 	else 
 	return false;
 }
+auto is_even(int x)
+{
+	if (is_divisible(x, 2))
+	    return true;
+	    else
+	    return false;
+}
 
 auto main() -> int
 {
