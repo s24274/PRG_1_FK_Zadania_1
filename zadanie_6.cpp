@@ -18,19 +18,17 @@ auto is_even(int x)
 auto main() -> int
 {
 	int x = 0;
-	int z = 0;
+	
 	
 	std::cout << "Podaj liczbe: ";
 	std::cin >> x;
-	std::cout << "Podaj druga liczbe: ";
-	std::cin >> z;
 	
-	bool y = is_divisible(x,z);
+	bool y = is_even(x);
 	
 	if (y) 
-	std::cout << x << " jest podzielna przez " << z << "\n";
+	std::cout << x << " jest parzysta \n";
 	else
-	std::cout << x << " nie jest podzielna przez " << z << "\n";
+	std::cout << x << " nie jest parzysta \n";
 	
 	std::cout << "\n";
 	
